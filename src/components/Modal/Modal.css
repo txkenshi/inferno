@@ -1,0 +1,78 @@
+.ReactModal__Content{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    margin: 0 auto;
+}
+.ModalCard{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 70px;
+}
+.ModalCard .ModalCarditem img{
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+}
+.ModalCarditem{
+    display: flex;
+    gap: 24px;
+    border: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding: 20px;
+}
+.ModalCard{
+    .item-text h3{
+        font-size: 20px;
+    }
+    .item-text p{
+        font-size: 14px;
+    }
+    .item-text span{
+        font-size: 24px;
+    }
+}
+.modal-sum{
+    border: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 505px;
+}
+.modalPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding-bottom: 20px;
+}
+.modalPrice span{
+    color: hsla(0, 0%, 0%, 0.60);
+}
+.cardPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.salles{
+    display: flex;
+    gap: 12px;
+}
+.salles [type=text]{
+    width: 326px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+    padding-left: 26px;
+}
+
+.salles [type=submit]{
+    width: 120px;
+}

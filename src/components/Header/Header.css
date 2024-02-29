@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Marcellus&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.logo p{
+    font-size: 36px;
+    font-family: 'Marcellus' !important;
+  font-style: normal;
+  font-weight: 400;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+}
+nav p{
+    position: relative;
+    cursor: pointer;
+}
+nav p::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    transition: .5s;
+   
+}
+nav p:hover::after{
+    width: 100%;
+    left: 0%;
+    
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.menu img{
+    width: 16px;
+}

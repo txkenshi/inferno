@@ -1,0 +1,21 @@
+.category{
+    width: 450px;
+    height: 495px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+.category img{
+    position: absolute;
+    z-index: 0;
+    width: 450px;
+    height: 495px;
+    object-fit: cover;
+}
+.category p{
+   z-index: 100;
+   padding: 7px 24px;
+   margin-bottom: 34px;
+   background-color: white;
+}

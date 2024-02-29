@@ -1,0 +1,8 @@
+.sorting{
+    display: flex;
+    gap: 5px;   
+}
+.sorting select{
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Marcellus&display=swap');
+
+.baner{
+    background: url(../../../public/Baner/Baner.png) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    padding-top: 280px;
+    justify-content: center;
+}
+.baner h1{
+    font-family: 'Marcellus' !important;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  font-size: 128px;
+}
+

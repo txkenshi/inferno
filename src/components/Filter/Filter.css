@@ -1,0 +1,58 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+.filter-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.filter-header img{
+    width: 20px;
+    height: 20px;
+}
+.filter-kategory, .filter-price{
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.filter-kat, .filter-price-header, .filter-size-header{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-size{
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.filsize{
+    width: 47px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;  
+}
+.sizes-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+input[type=submit]{
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    padding: 16px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
